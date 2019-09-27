@@ -1,0 +1,1050 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cp",
+				"cp_difference_widget"
+			],
+			[
+				"warm",
+				"warmup_start"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"backup",
+				"backup_timer"
+			],
+			[
+				"str",
+				"strftime"
+			],
+			[
+				"cp_widg",
+				"cp_widget_entries_after"
+			],
+			[
+				"cp_widget",
+				"cp_widget_entries_before"
+			],
+			[
+				"cp_widget_",
+				"cp_widget_max_entries"
+			],
+			[
+				"entri",
+				"entries_before\tstatement"
+			],
+			[
+				"py",
+				"_pyplanet_instance"
+			],
+			[
+				"last",
+				"last_cp_at"
+			],
+			[
+				"F",
+				"FinishLineCpBug\tclass"
+			],
+			[
+				"cpbd_",
+				"cpbd_notify_time"
+			],
+			[
+				"cpbd",
+				"cpbd_inactivity_time"
+			],
+			[
+				"_cpbd",
+				"_cpbd_last_cp"
+			],
+			[
+				"current",
+				"current_driver"
+			],
+			[
+				"ma",
+				"max_entries"
+			],
+			[
+				"ord",
+				"ordered_teams"
+			],
+			[
+				"check",
+				"checkpoints_widget"
+			],
+			[
+				"refre",
+				"_refresh_checkpoints_widgets\tfunction"
+			],
+			[
+				"cp_",
+				"cp_widget_interval"
+			],
+			[
+				"least",
+				"least_loop_sleep_time\tstatement"
+			],
+			[
+				"entries",
+				"entries_after"
+			],
+			[
+				"num",
+				"num_cps"
+			],
+			[
+				"Chec",
+				"CheckpointWidget\tclass"
+			],
+			[
+				"cp_bugs",
+				"cp_bugs_upload"
+			],
+			[
+				"lost",
+				"lost_cps_total\tparam"
+			],
+			[
+				"map",
+				"map_manager\tstatement"
+			],
+			[
+				"num_",
+				"num_checkpoints"
+			],
+			[
+				"_way",
+				"_handle_waypoint\tfunction"
+			],
+			[
+				"wire",
+				"wiretapped_teams"
+			],
+			[
+				"E",
+				"ENTERED_SPECTATOR_MODE\tstatement"
+			],
+			[
+				"is",
+				"is_spectator"
+			],
+			[
+				"Player",
+				"PlayerResetReason\tclass"
+			],
+			[
+				"de",
+				"destroyArray"
+			],
+			[
+				"player",
+				"players"
+			],
+			[
+				"get",
+				"get_value"
+			],
+			[
+				"reload",
+				"_reload_teams\tfunction"
+			],
+			[
+				"_",
+				"_update_teams"
+			],
+			[
+				"Local",
+				"LocalDriver\tclass"
+			],
+			[
+				"date",
+				"datetime\tclass"
+			],
+			[
+				"tmawa",
+				"tmawards_categories"
+			],
+			[
+				"NotImplemen",
+				"NotImplementedError\tclass"
+			],
+			[
+				"error",
+				"error_count\tstatement"
+			],
+			[
+				"_get",
+				"_get_teams\tfunction"
+			],
+			[
+				"dump",
+				"dumps\tfunction"
+			],
+			[
+				"prefx",
+				"prefix_classes\tfunction"
+			],
+			[
+				"jim_event_on",
+				"jim_event_onNewChallenge"
+			],
+			[
+				"pa",
+				"paInt16\tstatement"
+			],
+			[
+				"tot",
+				"TotalDoshEarned\tvar int "
+			],
+			[
+				"alias",
+				"alias_already_done"
+			],
+			[
+				"gap",
+				"gap_code"
+			],
+			[
+				"add_js",
+				"add_js_automatically"
+			],
+			[
+				"hasUser",
+				"hasUserVotedForVote"
+			],
+			[
+				"cus",
+				"customers_in_shop"
+			],
+			[
+				"cust",
+				"customers_in_shop"
+			],
+			[
+				"pay",
+				"pay_customer_ready"
+			],
+			[
+				"cut",
+				"cut_barber_ready"
+			],
+			[
+				"cash",
+				"cashdesk"
+			],
+			[
+				"cu",
+				"customers_in_shop"
+			],
+			[
+				"on",
+				"onEndMapRanking"
+			],
+			[
+				"excepti",
+				"exception_handler\tfunction"
+			],
+			[
+				"trigger",
+				"triggerClient\tfunction"
+			],
+			[
+				"__",
+				"__orange__"
+			],
+			[
+				"SetVe",
+				"SetVehicleTyresBulletproof"
+			],
+			[
+				"attach",
+				"attached_to\tstatement"
+			],
+			[
+				"mo",
+				"module_link\tstatement"
+			],
+			[
+				"iter",
+				"iter_child_nodes\tfunction"
+			],
+			[
+				"command",
+				"command_help"
+			],
+			[
+				"away",
+				"away_msg"
+			],
+			[
+				"move",
+				"move_status"
+			],
+			[
+				"exec",
+				"execute_callback"
+			],
+			[
+				"event_cli",
+				"event_clientmoved"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Forced Python 3.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Forced Python 3.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C (MinGW).sublime-build",
+					""
+				],
+				[
+					"Packages/User/C (MinGW).sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				"All Syntaxes"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"ana",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"automa",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"high",
+				"SublimeHighlight: copy to clipboard as HTML"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"highlight",
+				"SublimeHighlight: copy to clipboard as HTML"
+			],
+			[
+				"sacala",
+				"Set Syntax: Scala"
+			],
+			[
+				"pep8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"export",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"exporthtml",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"c++",
+				"Build With: C++ Single File"
+			],
+			[
+				"single",
+				"Build With: C++ Single File"
+			],
+			[
+				"build",
+				"Build With: C (MinGW)"
+			],
+			[
+				"ming",
+				"Build With: C (MinGW)"
+			],
+			[
+				"cancel",
+				"Build: Cancel"
+			],
+			[
+				"toggle com",
+				"Toggle Comment"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"pretty json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"format ",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"auto",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"compare",
+				"Diffy Compare"
+			],
+			[
+				"diffy",
+				"Diffy Compare"
+			],
+			[
+				"hex",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"highligh",
+				"SublimeHighlight: copy to clipboard as HTML"
+			],
+			[
+				"a",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"lisp",
+				"Set Syntax: Lisp"
+			],
+			[
+				"hi",
+				"SublimeHighlight: copy to clipboard as HTML"
+			],
+			[
+				"clipbo",
+				"SublimeHighlight: copy to clipboard as HTML"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"md5",
+				"Hasher: MD5"
+			],
+			[
+				"hash",
+				"Hasher: MD5"
+			],
+			[
+				"set c",
+				"Set Syntax: C"
+			],
+			[
+				"canc",
+				"Build: Cancel"
+			],
+			[
+				"can",
+				"Build: Cancel"
+			],
+			[
+				"anacond",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"tree",
+				"JsonTree: Show Tree"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"tabs",
+				"TabsExtra: Close Tabs (Dismiss Unsaved)"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syntax",
+				"Set Syntax: Less"
+			],
+			[
+				"anacon",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"anaconda",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"unreal",
+				"Set Syntax: UnrealScript"
+			],
+			[
+				"javascri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"anaconda: run",
+				"Anaconda: Run Current Test"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syntax: c",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua Dev"
+			],
+			[
+				"lua dev",
+				"Set Syntax: Lua Dev"
+			],
+			[
+				"PEP",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascrpt",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"package control a",
+				"Package Control: Install Package"
+			],
+			[
+				"interpreter",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"anaconda: set",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"pytho",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"set syntax: pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 532.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jon/AppData/Roaming/Makers Revenge/highscores.json",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/maps/xtest.map.json",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/maps/volcano.map.json",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/maps/outerspace.map.json",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/maps/wildlands.map.json",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/3D Game Project/Dokumente/TDD/example.map.json",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/record 2.php",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/www/index.php",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/data/save_new.json",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/data/backups/13-09-19_16-13-18.json",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/project 2.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/detail 2.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/average 2.php",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/config.french_localftp.json",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/classes.py",
+		"/F/FTP-Share/02062019/average.php",
+		"/C/Users/Jon/Downloads/ddedev/ddedev/www/index.php",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/www/average.php",
+		"/F/htdocs/index.php",
+		"/F/git/lgss/index.php",
+		"/F/FTP-Share/25072017/index_old.php",
+		"/C/Users/Jon/git/makers-revenge/.gitignore",
+		"/C/Users/Jon/Downloads/ddedev/ddedev/www/sauvegarde.temp2",
+		"/C/Users/Jon/AppData/Roaming/BetterDiscord/plugins/Citador.plugin.js",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/Events.php",
+		"/C/Users/Jon/AppData/Roaming/Makers Revenge/settings.json",
+		"/F/FTP-Share/14092019/14-09-19_14-46-42.json",
+		"/C/Users/Jon/Downloads/ConsoleLog.11.txt",
+		"/C/Users/Jon/Downloads/GameLog.24hroad.txt",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/14-09-19_14-24-57.json",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/3D Game Project/Polishing/Credits.txt",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/todo.txt",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/views.py",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/data/cp_bugs.json",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/storage_drivers/french_localftp.py",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/road24h/__init__.py",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/index 2.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/config.french_localftp.json",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/fonts/font_14.spritefont",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/season.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/Team.php",
+		"/C/Users/Jon/source/repos/Game1/Content/Dude/dude.fbx",
+		"/C/DPSF/Templates/TexturedQuadParticleSystemTemplate.cs",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/custom.js",
+		"/C/Users/Jon/.gitconfig",
+		"/C/Users/Jon/git/makers-revenge/.git/config",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/save_new.json",
+		"/C/Users/Jon/Downloads/ddedev/ddedev/www/average.php",
+		"/F/FTP-Share/13092019/index.php",
+		"/F/FTP-Share/08092019/www/index.php",
+		"/F/FTP-Share/02062019/index.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/apps.py",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/settings/apps.py",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/apps/info/templates/serverinfo.xml",
+		"/F/FTP-Share/13092019/fond_ranking.png",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/french_localftp.py",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/record.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/project.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/average.php",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/detail.php",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/animations/enemy_slow.fbx",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/ui/button_gegner.obj",
+		"/C/Users/Jon/Downloads/shader.fx",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/base.py",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/maps/test.map.json",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge.DesktopGL/LICENSE-SDL-2-0.txt",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge.DesktopGL/LICENSE-RangeTree.txt",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge.DesktopGL/LICENSE-irrKlang.txt",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge.DesktopGL/LICENSE-NCalc.txt",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge.DesktopGL/LICENSE-MonoGame.txt",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge.DesktopGL/LICENSE-Newtonsoft-JsonNET.txt",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Jon/source/repos/Game1/Content/models/turret4_rotaryModel.fbx",
+		"/C/Users/Jon/Downloads/Aether.Extras-master/Aether.Extras-master/Samples/AnimationContent/Dude/dude.fbx",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/Jon/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/C/Users/Jon/VirtualBox VMs/Ubuntu Server 18.04/sf_24hroad/pyplanet_project/settings/base.py",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/6hroad.txt",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/3D Game Project/Modellierung/animated/animationtest.x",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/test/test.fbx",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/3D Game Project/Acagamics/BetterSkinnedContent/Example/Example/Content/Shader/basicAnimated.fx",
+		"/C/Users/Jon/Desktop/test.dae",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/test/dude.Original.fbx",
+		"/C/Users/Jon/Downloads/fish/source/a168e16afecc4124874d9c8e8768e3e9.fbx.fbx",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/test/dude.fbx",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/Programmierparadigmen/Übungen/Jon/Scala/src/b7/a6/zahlenfolgen.scala",
+		"/C/Users/Jon/Desktop/test.fbx",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/test/AnimatedCube.fbx",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/test/untitled.fbx",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/3D Game Project/Modellierung/animated/anim_no_bone.fbx",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/3D Game Project/Modellierung/animated/anim_with_bone_with_weights.fbx",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/Programmierparadigmen/Übungen/Jon/Scala/src/tests/Playground.scala",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/Programmierparadigmen/Übungen/Jon/7/Aufgabe 7.3 Streams.html",
+		"/C/Users/Jon/Downloads/task4_template.scala",
+		"/C/Users/Jon/Downloads/task5_template.scala",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/Programmierparadigmen/Übungen/Jon/7/Aufgabe 7.1 Lazy Evaluation.html",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/test/dog_final.fbx",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/Programmierparadigmen/Übungen/Jon/7/Aufgabe 7.2 Structural Sharing.html",
+		"/C/Users/Jon/Downloads/zahlenfolgen.scala",
+		"/C/Users/Jon/Downloads/92-dog_anim/dog_final.fbx",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge.DesktopGL/MakersRevenge.DesktopGL.csproj",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/MakersRevenge.projitems",
+		"/C/Users/Jon/Downloads/SkinningSample_4_0/SkinningSample/SkinningSample.cs",
+		"/C/Users/Jon/git/makers-revenge/MakersRevenge/Content/Content.mgcb",
+		"/C/Users/Jon/Downloads/SkinningSample_4_0/SkinnedModelPipeline/SkinnedModelProcessor.cs",
+		"/C/Users/Jon/Downloads/SkinningSample_4_0/SkinnedModel/SkinningData.cs",
+		"/C/Users/Jon/Downloads/SkinningSample_4_0/SkinnedModel/AnimationPlayer.cs",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/3D Game Project/Acagamics/BetterSkinnedContent/AnimationPipeline/AnimationImporter.cs",
+		"/C/Users/Jon/Downloads/SkinningSample_4_0/SkinnedModel/AnimationClip.cs",
+		"/C/Users/Jon/ownCloud/Uni/Shared/4. Semester (SoSe 2019)/3D Game Project/Acagamics/BetterSkinnedContent/AnimationPipeline/AnimationProcessor.cs",
+		"/C/Users/Jon/AppData/Local/Temp/fz3temp-2/index.js",
+		"/C/Users/Jon/Downloads/1.py",
+		"/C/Users/Jon/git/acagamics-playground/thirdparty/glm/build/glmConfig.cmake",
+		"/C/Users/Jon/git/acagamics-playground/thirdparty/glm/build/glm/cmake_install.cmake",
+		"/C/Users/Jon/Downloads/ddedev/ddedev/pyplanet/config.json",
+		"/C/Users/Jon/git/acagamics-playground/cmake.bat",
+		"/C/Users/Jon/git/acagamics-playground/src/vertex.glsl",
+		"/C/Users/Jon/git/acagamics-playground/src/fragment.glsl",
+		"/C/Users/Jon/git/acagamics-playground/src/shaders/idle.vertex.glsl",
+		"/C/Users/Jon/git/acagamics-playground/src/shaders/fragment2.glsl",
+		"/C/Users/Jon/Downloads/teamspeak3-server_linux_amd64-3.7.1/teamspeak3-server_linux_amd64/CHANGELOG"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 241.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 83.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 198.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 144.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "pterodactyl-webstats.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bootstrap.css",
+				"C:\\Users\\Jon\\AppData\\Local\\Temp\\fz3temp-2\\bootstrap.css"
+			],
+			[
+				"output",
+				"F:\\FTP-Share\\16102018\\prefixer\\output.css"
+			],
+			[
+				"",
+				"C:\\Users\\Jon\\AppData\\Local\\Temp\\fz3temp-2\\gameq.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Jon\\git\\TS3eventscripts\\TS3eventscripts.sublime-project"
+			]
+		],
+		"width": 866.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
