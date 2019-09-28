@@ -43,6 +43,30 @@ var PterodactylWebStats = {
 			PterodactylWebStats.disconnect();
 		});
 
+		$('#pws-clear-button').click(function() {
+			// in-memory for charts
+			PterodactylWebStats.data.cpu = [];
+			PterodactylWebStats.data.memory = [];
+			PterodactylWebStats.data.labels = [];
+
+			if (PterodactylWebStats.charts.cpu != null) {
+				PterodactylWebStats.charts.cpu.update();
+			}
+
+			if (PterodactylWebStats.charts.memory != null) {
+				PterodactylWebStats.charts.memory.update();
+			}
+		
+			// local storage
+			localforage.clear().then(function() {
+			    console.log('Database is now empty.');
+			    location.reload();
+			}).catch(function(err) {
+				$.notify(err, 'error');
+			    console.log(err);
+			});
+		});
+
 		var ctx = document.getElementById('pws-cpu-chart');
 		PterodactylWebStats.charts.cpu = new Chart(ctx, {
 			type: 'line',
