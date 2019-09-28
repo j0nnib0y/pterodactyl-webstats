@@ -1,22 +1,21 @@
 /* TODO
-- decide on key type (string or not)
 - check for other libraries (localforage, ...) 
 */
 
 var PterodactylWebStats = {
-	'is_connected': false,
-	'charts': {
-		'cpu': null,
-		'memory': null
+	isConnected: false,
+	charts: {
+		cpu: null,
+		memory: null
 	},
-	'data': {
-		'cpu': [],
-		'memory': [],
-		'labels': [],
-		'started_at': null
+	data: {
+		cpu: [],
+		memory: [],
+		labels: [],
+		started_at: null
 	},
-	'_socket': null,
-	'init': function() {
+	_socket: null,
+	init: function() {
 		$('.pws-errored').hide();
 
 		if (typeof $.notify.defaults !== 'function') {
@@ -50,21 +49,21 @@ var PterodactylWebStats = {
 			data: {
 				labels: PterodactylWebStats.data.labels,
 				datasets: [{
-                    label: "Percent Use",
+                    label: 'Percent Use',
                     fill: false,
                     lineTension: 0.03,
-                    backgroundColor: "#3c8dbc",
-                    borderColor: "#3c8dbc",
+                    backgroundColor: '#3c8dbc',
+                    borderColor: '#3c8dbc',
                     borderCapStyle: 'butt',
                     borderDash: [],
                     borderDashOffset: 0.0,
                     borderJoinStyle: 'miter',
-                    pointBorderColor: "#3c8dbc",
-                    pointBackgroundColor: "#fff",
+                    pointBorderColor: '#3c8dbc',
+                    pointBackgroundColor: '#fff',
                     pointBorderWidth: 1,
                     pointHoverRadius: 5,
-                    pointHoverBackgroundColor: "#3c8dbc",
-                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBackgroundColor: '#3c8dbc',
+                    pointHoverBorderColor: 'rgba(220,220,220,1)',
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
@@ -93,21 +92,21 @@ var PterodactylWebStats = {
 			data: {
 				labels: PterodactylWebStats.data.labels,
 				datasets: [{
-                    label: "Memory Use",
+                    label: 'Memory Use',
                     fill: false,
                     lineTension: 0.03,
-                    backgroundColor: "#3c8dbc",
-                    borderColor: "#3c8dbc",
+                    backgroundColor: '#3c8dbc',
+                    borderColor: '#3c8dbc',
                     borderCapStyle: 'butt',
                     borderDash: [],
                     borderDashOffset: 0.0,
                     borderJoinStyle: 'miter',
-                    pointBorderColor: "#3c8dbc",
-                    pointBackgroundColor: "#fff",
+                    pointBorderColor: '#3c8dbc',
+                    pointBackgroundColor: '#fff',
                     pointBorderWidth: 1,
                     pointHoverRadius: 5,
-                    pointHoverBackgroundColor: "#3c8dbc",
-                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBackgroundColor: '#3c8dbc',
+                    pointHoverBorderColor: 'rgba(220,220,220,1)',
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
@@ -132,7 +131,7 @@ var PterodactylWebStats = {
 
 		this.loadDataFromStorage();
 	},
-	'connect': function() {
+	connect: function() {
 		var url = $('#pws-url').val();
 		var token = $('#pws-token').val();
 		
@@ -162,11 +161,11 @@ var PterodactylWebStats = {
 			$('.pws-connecting').hide();
 
 			PterodactylWebStats.data.started_at = moment();
-			PterodactylWebStats.is_connected = true;
+			PterodactylWebStats.isConnected = true;
 		});
 
 		this._socket.on('proc', function(proc) {
-			if (PterodactylWebStats.is_connected) {
+			if (PterodactylWebStats.isConnected) {
 				var cpuUse = proc.data.cpu.total;
 				var memoryUse = parseInt(proc.data.memory.total / (1024 * 1024));
 				var time = moment().format('HH:mm:ss');
@@ -193,8 +192,6 @@ var PterodactylWebStats = {
 
 				PterodactylWebStats.charts.cpu.update();
 				PterodactylWebStats.charts.memory.update();
-
-				console.log(proc);
 			}
 		});
 
@@ -206,15 +203,14 @@ var PterodactylWebStats = {
 			console.log(data);
 		});
 	},
-	'disconnect': function() {
+	disconnect: function() {
 		$('.pws-connected').hide();
 		$('.pws-disconnected').show();
 
 		this._socket.close();
-
-		this.is_connected = false;
+		this.isConnected = false;
 	},
-	'loadDataFromStorage': function() {
+	loadDataFromStorage: function() {
 		localforage.iterate(function(value, key, iterationNumber) {
 			PterodactylWebStats.data.cpu.push(value.cpu);
 			PterodactylWebStats.data.memory.push(value.memory);
@@ -229,7 +225,7 @@ var PterodactylWebStats = {
 		    $.notify(err, 'error');
 		});
 	},
-	'_error': function(msg) {
+	_error: function(msg) {
 		console.error(msg);
 		$('.pws-connected').hide();
 		$('.pws-disconnected').hide();
