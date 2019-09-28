@@ -12,7 +12,9 @@ var PterodactylWebStats = {
 		cpu: [],
 		memory: [],
 		labels: [],
-		started_at: null
+		startedAt: null,
+		lastUpdateAt: null,
+		lastConnectionAt: null
 	},
 	_socket: null,
 	init: function() {
@@ -184,7 +186,21 @@ var PterodactylWebStats = {
 			$('.pws-connected').show();
 			$('.pws-connecting').hide();
 
-			PterodactylWebStats.data.started_at = moment();
+			var time = moment().format();
+
+			if (PterodactylWebStats.data.startedAt == null) {
+				localforage.setItem('startedAt', time).catch(function(err) {
+				    console.log(err);
+				    $.notify(err, 'error');
+				});
+			}
+
+			PterodactylWebStats.data.lastConnectionAt = time;
+			localforage.setItem('lastConnectionAt', time).catch(function(err) {
+			    console.log(err);
+			    $.notify(err, 'error');
+			});
+			
 			PterodactylWebStats.isConnected = true;
 		});
 
@@ -192,20 +208,22 @@ var PterodactylWebStats = {
 			if (PterodactylWebStats.isConnected) {
 				var cpuUse = proc.data.cpu.total;
 				var memoryUse = parseInt(proc.data.memory.total / (1024 * 1024));
-				var time = moment().format('HH:mm:ss');
+				var time = moment();
+				var formattedTime = time.format('HH:mm:ss');
 
 				// in-memory for charts
 				PterodactylWebStats.data.cpu.push(cpuUse);
 				PterodactylWebStats.data.memory.push(memoryUse);
-				PterodactylWebStats.data.labels.push(time);
+				PterodactylWebStats.data.labels.push(formattedTime);
 
 				// local storage
-				localforage.length().then(function(length) {
-					localforage.setItem(length.toString(), {
-						'cpu': cpuUse,
-						'memory': memoryUse,
-						'label': time
-					}).catch(function(err) {
+				localforage.setItem(PterodactylWebStats.data.cpu.length.toString(), {
+					'cpu': cpuUse,
+					'memory': memoryUse,
+					'label': formattedTime
+				}).then(function(value) {
+					PterodactylWebStats.data.lastUpdateAt = time.format();
+					localforage.setItem('lastUpdateAt', PterodactylWebStats.data.lastUpdateAt).catch(function(err) {
 					    console.log(err);
 					    $.notify(err, 'error');
 					});
@@ -236,9 +254,21 @@ var PterodactylWebStats = {
 	},
 	loadDataFromStorage: function() {
 		localforage.iterate(function(value, key, iterationNumber) {
-			PterodactylWebStats.data.cpu.push(value.cpu);
-			PterodactylWebStats.data.memory.push(value.memory);
-			PterodactylWebStats.data.labels.push(value.label);
+			switch (key) {
+				case 'startedAt':
+					PterodactylWebStats.data.startedAt = value;
+					break;
+				case 'lastUpdateAt':
+					PterodactylWebStats.data.lastUpdateAt = value;
+					break;
+				case 'lastConnectionAt':
+					PterodactylWebStats.data.lastConnectionAt = value;
+					break;
+				default:
+					PterodactylWebStats.data.cpu.push(value.cpu);
+					PterodactylWebStats.data.memory.push(value.memory);
+					PterodactylWebStats.data.labels.push(value.label);
+			}
 		}).then(function() {
 			PterodactylWebStats.charts.cpu.update();
 			PterodactylWebStats.charts.memory.update();
