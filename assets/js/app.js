@@ -1,3 +1,8 @@
+/* TODO
+- decide on key type (string or not)
+- check for other libraries (localforage, ...) 
+*/
+
 var PterodactylWebStats = {
 	'is_connected': false,
 	'charts': {
@@ -124,6 +129,8 @@ var PterodactylWebStats = {
                 maintainAspectRatio: false
         	}
 		});
+
+		this.loadDataFromStorage();
 	},
 	'connect': function() {
 		var url = $('#pws-url').val();
@@ -161,13 +168,28 @@ var PterodactylWebStats = {
 		this._socket.on('proc', function(proc) {
 			if (PterodactylWebStats.is_connected) {
 				var cpuUse = proc.data.cpu.total;
-				PterodactylWebStats.data.cpu.push(cpuUse);
-
 				var memoryUse = parseInt(proc.data.memory.total / (1024 * 1024));
-				PterodactylWebStats.data.memory.push(memoryUse);
-
 				var time = moment().format('HH:mm:ss');
+
+				// in-memory for charts
+				PterodactylWebStats.data.cpu.push(cpuUse);
+				PterodactylWebStats.data.memory.push(memoryUse);
 				PterodactylWebStats.data.labels.push(time);
+
+				// local storage
+				localforage.length().then(function(length) {
+					localforage.setItem(length.toString(), {
+						'cpu': cpuUse,
+						'memory': memoryUse,
+						'label': time
+					}).catch(function(err) {
+					    console.log(err);
+					    $.notify(err, 'error');
+					});
+				}).catch(function(err) {
+				    console.log(err);
+				    $.notify(err, 'error');
+				});
 
 				PterodactylWebStats.charts.cpu.update();
 				PterodactylWebStats.charts.memory.update();
@@ -191,6 +213,21 @@ var PterodactylWebStats = {
 		this._socket.close();
 
 		this.is_connected = false;
+	},
+	'loadDataFromStorage': function() {
+		localforage.iterate(function(value, key, iterationNumber) {
+			PterodactylWebStats.data.cpu.push(value.cpu);
+			PterodactylWebStats.data.memory.push(value.memory);
+			PterodactylWebStats.data.labels.push(value.label);
+		}).then(function() {
+			PterodactylWebStats.charts.cpu.update();
+			PterodactylWebStats.charts.memory.update();
+
+		    console.log('Loaded data from local storage successfully!');
+		}).catch(function(err) {
+		    console.log(err);
+		    $.notify(err, 'error');
+		});
 	},
 	'_error': function(msg) {
 		console.error(msg);
